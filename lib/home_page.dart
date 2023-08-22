@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Git'),
+        title: const Text('Text Field'),
       ),
       body: Center(
         child: TextFormField(),
