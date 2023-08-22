@@ -9,7 +9,18 @@ class HomePage extends StatelessWidget {
         title: const Text('Text Field'),
       ),
       body: Center(
-        child: TextFormField(),
+        child: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Column(
+            children: [
+              TextFormField(),
+              const SizedBox(
+                height: 10,
+              ),
+              TextFormField(),
+            ],
+          ),
+        ),
       ),
     );
   }
